@@ -1,0 +1,43 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "start-webpack-server": "webpack server --config webpack/webpack.config.js --env env=dev --open",
+    "built-webpack-server": "webpack --config webpack/webpack.config.js --env env=prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/styles": "^5.6.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.6.1",
+    "@types/react": "^18.0.4",
+    "@types/react-dom": "^18.0.0",
+    "babel-loader": "^8.2.4",
+    "clsx": "^1.1.1",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "moment": "^2.29.3",
+    "query-string": "^7.1.1",
+    "react-router-dom": "^6.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
